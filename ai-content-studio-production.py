@@ -61,7 +61,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 openai.api_key = os.getenv("OPENAI_API_KEY", "sk-your-openai-key-here")
 
 # Stripe Configuration
-stripe.api_key = os.getenv("STRIPE_SECRET_KEY", "sk_test_...")
+stripe.api_key = os.getenv("STRIPE_SECRET_KEY", "sk_1a54ec381209a6ea967eea9ff357eba10fd86425dff492cc")
 
 # Database Configuration
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/ai_content_studio")
